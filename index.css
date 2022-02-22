@@ -64,9 +64,16 @@ body {
 
 h1 {
 	font-family: 'Chelsea Market', cursive;
-	font-size: 7rem;
+	font-size: 5rem;
+    text-align: center;
 }
 
+h2 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
 section {
     padding: 4% 0;
     width: 90%;
@@ -87,9 +94,14 @@ nav a {
     text-decoration: none;
 }
 
+
 .left {
     background-color: #ff764e;
     margin-left: 10%;
+}
+
+.left:hover{
+    background-color: #4DFF75;  
 }
 
 .middle {
@@ -97,17 +109,25 @@ nav a {
     margin: 0 24%;
 }
 
+.middle:hover{
+    background-color: #D2EB5E;
+}
+
 .right {
     background-color: #ffcd69;
     margin-right: 10%;
 }
 
+.right:hover {
+    background-color: #69FFCC;
+}
+
 .text, .image {
-    display: inline-block;
+    display:inline-block;
 }
 
 .image {
-    width: 30%;
+    width: 26%;
 }
 
 .round {
@@ -115,11 +135,10 @@ nav a {
     width: 100%;
 }
 
-text {
-    width: 50%;
+.text {
+    width: 56%;
     margin-left: 5%;
     text-align: center;
-    line-height: 3;
 }
 
 .mauve {
@@ -131,18 +150,21 @@ text {
 .fire {
     width: 30%;
     margin: 0 auto;
-    text-align: center;
+    width: 25%;
+    height: 25%;
 }
 
 .van {
     width: 30%;
     margin: 0 auto;
     text-align: center;
+    width: 25%;
+    height: 25%;
 }
 
 .footerimg {
     background-image: url('assets/footer_img.jpg');
-    height: 25vh;
+    height: 30vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
@@ -152,3 +174,4 @@ text {
 footer {
 background-color: #f9e7dc;
 }
+
